@@ -1,0 +1,439 @@
+header{
+    margin-top:0px;
+    height:160px;
+    text-align:left;
+    background: url(../img/agsquare.png) repeat;
+    vertical-align:top;
+}
+#inicial{
+    background:url(../img/background.jpg);
+}
+#figura{
+    vertical-align:top;
+    margin-top:-125px;
+}
+#saudacao{
+    text-align:right;
+    margin-right:10px;
+    margin-top:20px;
+}
+#relogio{
+    text-align:right;
+    margin-right:10px;
+}
+
+:invalid { 
+    border-color: #e88;
+    -webkit-box-shadow: 0 0 5px rgba(255, 0, 0, .8);
+    -moz-box-shadow: 0 0 5px rbba(255, 0, 0, .8);
+    -o-box-shadow: 0 0 5px rbba(255, 0, 0, .8);
+    -ms-box-shadow: 0 0 5px rbba(255, 0, 0, .8);
+    box-shadow:0 0 5px rgba(255, 0, 0, .8);
+}
+
+:required {
+    border-color: #88a;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+    -o-box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+    -ms-box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+    box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+}
+
+input, select {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border:1px solid #ccc;
+    font-size:15px;
+    width:200px;
+    min-height:15px;
+    margin-bottom:15px;
+    margin-top:5px;
+    outline: none;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+    -ms-border-radius:5px;
+    border-radius:5px;
+    text-transform:uppercase;
+}
+#hora_envio{
+    width:40px;
+}
+#nome{
+    width:494px;	
+}
+table{
+    border:none;
+    background-color:#FFF!important;
+}
+
+.campos_insere{
+    width:300px;
+}
+.textarea{
+    height:200px;
+    width:300px;
+}
+#titulo{
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:18px;	
+}
+
+#btnpublicar{
+    height:48px;
+    background:#efeff0 url(../img/cadastrar.png) no-repeat;
+}
+#btngrupo{
+    height:48px;
+    background:#efeff0 url(../img/grupos.png) no-repeat;
+}
+#btngrupo_senha{
+    width:260px;
+    height:48px;
+    background:#efeff0 url(../img/accept.png) no-repeat;
+}
+
+#inserelei{
+    text-align:center;
+}
+.check{
+    width:20px;
+}
+iframe{
+    position:absolute;
+    border: none;
+    width: 100%;
+    top: 166px;
+
+}
+.table_center{
+    text-align:center;
+    width:50%;
+}
+
+#table_login{
+    vertical-align:top;
+    text-align:center;
+}
+#aviso{
+    border:1px solid #000;
+    border-radius:8px;
+    margin:20px auto;
+    padding:10px 20px;
+    background:#141414;
+    width:328px;
+    color:#FFF;
+}
+#avisoFiltro{
+    border:1px solid #000;
+    border-radius:8px;
+    margin:20px auto;
+    padding:10px 20px;
+    background:#141414;
+    width:475px;
+    color:#FFF;
+}
+.radio, .tipo_msgn, .tipo_envio{
+    width:15px;
+    border:1px solid #999;
+}
+#fonesms, #fone1, #fone2, #telefoneinfo, #enderecoip{
+    width:145px;
+}
+#pop{
+    display:none;
+    position:absolute;
+    top:50%;
+    left:40%;
+    margin-left:-150px;
+    margin-top:-100px;
+    padding:10px;
+    width:540px;
+    height:200px;
+    border:1px solid #d0d0d0;
+    background:#e4e7f2;
+    z-index: 4;
+}
+#titulo_msgn, #msgn{
+    width:400px;
+}
+#inc_mensagem{
+    vertical-align:top;
+}
+#btn_env_sms_grupo{
+    text-align:right;
+    background-image:linear-gradient(to bottom, #F4F4F4, #999);
+    border-radius: 0 0 8px 8px;
+}
+/* Calendario */
+div.calendario {
+    width: 154px;
+    position: absolute;
+    background: #fff url('/img/fe/bg_calendario_sombra.gif') repeat-y right;
+    border-left: 1px solid #f6f6f6;
+    border-top: 1px solid #f6f6f6;	
+    display: none;
+    margin-left:-40px;
+}
+
+div.calendario a.fechar {
+    display: block;
+    position: absolute;
+    top: -19px;
+    right: 0px;
+    height: 18px;
+    text-decoration: none;
+    background: #fff;
+    width: 20px;
+    text-align:center;
+    vertical-align: center;
+    line-height: 18px;
+    color: #000;
+    font:bold 12px Tahoma;
+}
+
+div.calendario a.bt_controle_mes {
+    display: block;
+    height: 15px;
+    position: absolute;
+    top: 0px;
+    vertical-align: middle;
+    text-decoration: none;
+    color:#222;
+    line-height:15px;
+    vertical-align: middle;	
+}
+
+div.calendario a.bt_voltar_mes { left: 2px; }
+div.calendario a.bt_avancar_mes { right: 2px; }
+div.calendario p.nome_mes {
+    text-align: center;
+    display: block;
+    height: 18px;
+    background: #efeff0;
+    font-size: 12px;
+    font-weight: bold;
+    color: #6d6d6d;
+    line-height:18px;
+    vertical-align: middle;
+    margin: 0;
+}
+
+div.calendario ul {
+    margin:0;
+    padding:0;
+}
+div.calendario ul li {
+    display: block;
+    float: left;
+    width: 22px;
+    height: 17px;
+    text-align: center;
+    font-size: 11px;
+    line-height: 17px;
+    vertical-align: middle;
+}
+
+div.calendario ul li a { font-weight: bold; color:#6d6d6d; text-decoration:none; }
+div.calendario ul li a:hover { text-decoration: underline; }
+
+div.calendario ul li.semana {
+    background: #c0c7ca;
+    font-weight: bold;		
+    color: #fff;
+}
+
+div.calendario ul li.dia {
+    color: #999;
+}
+
+div.calendario ul li.default {	
+    background: #ececed;
+    color: #f00; 
+    font-weight: bold;
+}
+
+div.calendario ul li.default a { color: #f00; }
+
+div.exemplo { margin-bottom: 150px;}
+
+/*Send Sms Grupo */
+#send_grupo{
+    width:500px;
+    border-style:groove;
+    border-radius:8px;
+}
+#inc_agenda{
+    width:505px;
+    border-style:groove;
+    border-radius:8px;
+
+}
+#tit_send_grupo{
+    text-align:center;
+    background-image:linear-gradient(to bottom, #4385ab, #fff);
+    border-radius:2px 2px 0 0;
+    width:500px;
+    color:#006;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:20px;
+    height:70px;
+}
+#tit_send_individual_municipe{
+    text-align: left;
+    text-transform: capitalize;
+}
+#tit_cad_grupo{
+    margin-bottom: 10px;
+    text-align:center;
+    color:#006;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:20px;
+}
+#txtMENSAGEM, #msgn, #titulo_msgn{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width:450px;
+    resize:none;
+    font-size:17px;
+    margin:5px 0;
+    border-radius:5px;
+    border:1px solid #999;
+    padding:5px;
+}
+#btn_enviar_grupo, #btn_env_sms_ind, #btn_cad_msg, #btn_bairro, #btnpublicar, #btn_config, #btngrupo_senha, #btngrupo, #btn_agendamento, #btn_enviar_individual{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height:40px;
+    width: 210px;
+    margin-top:10px;
+    margin-right:10px;
+}
+#btn_bairro{
+    background:#efeff0 url(../img/cad_bairro.png) no-repeat;
+}
+#btn_cad_msg{
+    background:#efeff0 url(../img/cad_mensagem.png) no-repeat;
+}
+#btn_agendamento{
+    background:#efeff0 url(../img/agendar.png) no-repeat;
+}
+#btn_enviar_grupo{
+    background:#efeff0 url(../img/grupo.png) no-repeat;
+}
+#btn_enviar_individual{
+    background:#efeff0 url(../img/individual.png) no-repeat;
+}
+#lbl{
+    font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size:17px;
+}
+#envia_grupo, #mensagem_selecionada, #txtMENSAGEM{
+    font-size:16px;
+    margin:5px 0;
+    border-radius:5px;
+    border:1px solid #999;
+    padding:5px;
+    width:410px;
+}
+#txtTELEFONE{
+    font-size:16px;
+    margin:5px 0;
+    border-radius:5px;
+    border:1px solid #999;
+    padding:5px;
+    width:410px;
+}
+
+#inc_cep{
+    width: 70px;
+}
+#inc_bairro{
+    width: 470px;
+    height: 30px;
+}
+
+#inc_grupo{
+    width:470px;
+    height: 30px;
+}
+#r_fisico, #r_juridico{
+    width:15px;
+}
+#tipo_cadastro{
+    margin-top:-25px;
+    text-align:right;
+    font-size:17px;
+    font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+#edita_grupo{
+    width:410px;
+}
+#grupo, #grupo1, #grupo2{
+    width:150px;
+}
+#ende{
+    width:450px;
+}
+
+#lbl_email{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 0px;
+}
+
+#email{
+    position: absolute;
+    margin-top: -36px;
+    margin-left: 163px;
+    width: 330px;
+}
+
+#data{
+    width: 150px;
+}
+
+#lbl_endereco{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 10px;
+}
+
+#rua{
+    position: absolute;
+    margin-left: 10px;
+    width: 200px;
+}
+
+#numero{
+    margin-left: 214px;
+    width: 74px;
+}
+
+#checkboxes{
+    height: 100px;
+    overflow : auto;
+    text-transform: uppercase;
+}
+.check_grupo{
+    width: 14px;
+    height: 14px;
+    margin-bottom: 5px;
+}   
+#div-grupo{
+    margin-top: -20px;
+    margin-left: 20px;
+    margin-bottom: -17px;
+}
+
+#hora_envio{
+    width: 60px;
+}
+
+#data_envio{
+    width: 150px;
+}
+#segundos_atualiza, #registrospagina{
+    width: 20px;
+}
+#porta{
+    width: 50px;
+}

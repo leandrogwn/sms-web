@@ -1,0 +1,105 @@
+#btn_login{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height:40px;
+    width:100px;
+    margin-top:2px;
+    margin-right:10px;
+}
+
+#lbl_text{
+    margin-left:5px;
+}
+
+#caixa_btn{
+    height:75px;
+    text-align:right;
+    background-image:linear-gradient(to bottom, #F4F4F4, #999);
+    border-radius: 0 0 8px 8px;
+}
+
+#lbl_login{
+    font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size:17px;
+    background-color:#FFF;
+    margin-left:-5px;
+
+}
+
+#titulo{
+    text-align:center;
+    background-image:linear-gradient(to bottom, #88a, #F0F8FF);
+    /*background-image:linear-gradient(to bottom, #da3a44, #F0F8FF);*/
+    border-radius:8px 8px 0 0;
+    width:500px;
+    color:#006;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:20px;
+    height:60px;
+}
+
+#quadro{
+    width:500px;
+    border-style:groove;
+    border-radius:8px;
+}
+*{
+
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    outline:0;
+}
+
+html{
+    font-size:76%;
+}
+
+body{
+    color:#000;
+    font-size:1em;
+    margin:0;
+}
+
+textarea{
+    overflow:auto;
+    width:134px;
+    height:60px; 
+}
+
+input,textarea{
+    font-size:1em;
+}
+
+a img{
+    border:0;
+}
+
+.clearfix{
+    clear:both !important;
+    width:100% !important;
+    height:1px !important;
+    font-size:1px !important;
+}
+
+abbr,article,aside,audio,canvas,details,figcaption,figure,footer,header,mark,meter,nav,output,progress,section,summary,time,video{
+    display:block;
+    float:none;
+    margin:0;
+    padding:0;
+}
+
+#campos_login{
+    background:#000;
+}label {
+    color: #000;
+}
+#campos{
+    width:293px;
+}
+#login_digitado, #senha_digitada{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width:95%;
+    font-size:17px;
+    margin:5px 0;
+    border-radius:5px;
+    border:1px solid #999;
+    padding:5px;
+}

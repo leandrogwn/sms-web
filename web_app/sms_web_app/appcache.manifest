@@ -1,0 +1,35 @@
+CACHE MANIFEST
+
+
+CACHE:
+./files.json
+./index.php
+./cad_municipe.php
+./RecebeDadosLogin.php
+./logout.php
+./manifest.json
+./css/main.css
+./icons/MaterialIcons-Regular.ttf
+./icons/LOGI.png
+./icons/background.png
+./icons/icon-128x128.png
+./icons/icon-144x144.png
+./icons/icon-152x152.png
+./icons/icon-192x192.png
+./icons/icon-256x256.png
+./icons/logomain.png
+./icons/smsystem-logo.png
+./icons/material.css
+./img/entrada.jpg
+./js/install.js
+./js/main.js
+./js/spa.js
+
+NETWORK:
+*
+
+
+SETTINGS:
+prefer-online
+
+# hash: fb4337bb4b7ca55dca942234efcb592bf0b3d87e98083a1a864ff3e4ceda83ac

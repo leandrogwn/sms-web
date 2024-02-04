@@ -1,0 +1,43 @@
+*{
+
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    outline:0;
+}
+
+html{
+    font-size:76%;
+}
+
+body{
+    color:#000;
+    font-size:1em;
+    margin:0;
+}
+
+textarea{
+    overflow:auto;
+    width:134px;
+    height:60px; 
+}
+
+input,textarea{
+    font-size:1em;
+}
+
+a img{
+    border:0;
+}
+
+.clearfix{
+    clear:both !important;
+    width:100% !important;
+    height:1px !important;
+    font-size:1px !important;
+}
+
+abbr,article,aside,audio,canvas,details,figcaption,figure,footer,header,mark,meter,nav,output,progress,section,summary,time,video{
+    display:block;
+    float:none;
+    margin:0;
+    padding:0;
+}
